@@ -1,4 +1,4 @@
-# babel-express-nodemon-starter 🙌
+# babel-express-boilerplate 🙌
 
 Get started writing ES2015 in your Express apps and leave the compiling to [Babel](https://babeljs.io/).
 
