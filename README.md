@@ -10,7 +10,7 @@ Get started writing ES2015 in your Express apps and leave the compiling to [Babe
 * [babel-cli](https://www.npmjs.com/package/babel-cli)
 
 ### Installation
-    % git clone https://github.com/notrab/babel-express-nodemon-starter
+    % git clone https://github.com/notrab/babel-express-boilerplate
     % cd babel-express-nodemon-starter
     % npm install
     % cp .env.sample .env
