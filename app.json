@@ -1,0 +1,12 @@
+{
+  "name": "express-babel-starter",
+  "description": "Get started writing es6 inside ExpressJS apps today.",
+  "repository": "https://github.com/notrab/express-babel-starter",
+  "keywords": [
+    "javascript",
+    "babel",
+    "node",
+    "expressjs",
+    "heroku"
+  ]
+}
