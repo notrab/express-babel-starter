@@ -1,9 +1,8 @@
 {
-  "name": "babel-express-nodemon-starter",
+  "name": "express-babel-starter",
   "private": true,
   "version": "1.0.0",
   "description": "Designed for express backend apps. Write ES2015, Deploy ES5. Babel-backed.",
-  "main": "./dist/index.js",
   "scripts": {
     "start": "heroku local -f Procfile.local",
     "start:prod": "node dist/server",
@@ -14,7 +13,12 @@
   "cacheDirectories": [
     "node_modules"
   ],
-  "keywords": [],
+  "keywords": [
+    "boilerplate",
+    "es2015",
+    "es6",
+    "expressjs"
+  ],
   "author": "Jamie Barton <jamie@launchmade.com> (http://launchmade.com/)",
   "license": "ISC",
   "dependencies": {
