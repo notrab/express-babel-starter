@@ -5,12 +5,15 @@
   "description": "Designed for express backend apps. Write ES2015, Deploy ES5. Babel-backed.",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "node ./dist/index.js",
-    "dev": "nodemon ./src/index.js --exec babel-node",
-    "build": "babel ./src --out-dir ./dist",
-    "postinstall": "npm run build",
-    "cacheDirectories": ["node_modules"]
+    "start": "heroku local -f Procfile.local",
+    "start:prod": "node dist/server",
+    "build": "npm run build-dist",
+    "build-dist": "rimraf lib && babel ./src -d dist --copy-files",
+    "heroku-postbuild": "npm run build",
   },
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "keywords": [],
   "author": "Jamie Barton <jamie@launchmade.com> (http://launchmade.com/)",
   "license": "ISC",
