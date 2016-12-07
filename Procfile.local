@@ -1,1 +1,1 @@
-web: nodemon -x 'node -r ./src/register.js' src/server
+web: nodemon -x 'node -r ./lib/register.js' lib/server
