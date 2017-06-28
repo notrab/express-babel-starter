@@ -15,8 +15,3 @@ Get started writing ES2015 in your Express apps and leave the compiling to [Babe
 
 ### Deploy to Heroku
     git push heroku
-
-### Thanks to
-* [Michael
-Jackson](https://github.com/mjackson)
-* [npm/newww](https://github.com/npm/newww)
